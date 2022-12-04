@@ -1,6 +1,5 @@
 open Solvers.Signature
 
-
 module Solver : Solver = struct
   let char_value c =
     let c' = int_of_char c in
